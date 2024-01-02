@@ -1,0 +1,391 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+header{
+ display: none;
+   
+}
+.NavBar{
+    display: grid;
+    grid-template-columns:250px 300px 1fr 300px ;
+}
+
+
+
+.Logo{
+grid-column: 1/2;
+}
+.NavLeft{
+    grid-column: 2/3;
+}
+.NavRight{
+    grid-column: 4/5;
+}
+
+
+.NavText{
+    display: flex;
+    justify-content:space-between;
+}
+
+.NavText li{
+    list-style: none;
+    
+}
+
+.NavText a{
+    text-decoration:none ;
+    color:black;
+}
+
+
+.burgerbtn1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    display: none;    
+        }
+    
+    .logo img{
+        height: 50px;
+        width:250px;
+    
+    }
+    
+    
+    .bug1 ul{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    .bug1 ul li{
+        list-style: none;
+    padding:20px;
+    
+    }
+    .bug1 ul li a{
+    color:wheat;
+    
+    }
+    
+/*----------------------------Slider------------------------*/
+
+.headein{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 20px 0px
+}
+
+
+
+
+.Slider{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: Url("abc.jpg");
+        background-position: center;
+        height:600px;
+        overflow: hidden;
+	    background-size: cover;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:white
+
+}
+.signup-button{
+    padding:15px;
+    width: 100px;
+}
+.sub-text{
+    padding: 0px 50px 0px 50px;
+}
+
+
+/*-------------------3 pic-----------------*/
+
+
+.row-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    }
+    
+    .vid-card{
+        width:380px;
+        margin: 30px;
+    }
+    .vid-image{
+        height:280px;
+        width:380px;
+    
+    }
+    .vid-text{
+    
+        margin:0px;
+        padding:0px;
+    
+    }
+    
+    .vid-info{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 15px;
+    
+    }
+    .vid-info img{
+        height:20px;
+    }
+    .vid-info p{
+    padding:0px;
+    margin:0px;
+    padding:0px 10px 0px 10px;
+    }
+    .sharing{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 15px;
+    background-color:rgb(220 220 220);
+    border-radius: 10px;
+    padding:5px;
+    
+    }
+    .sharing img{
+    height:20px;
+    width:20px;
+    }
+    
+    .sharing p{
+        
+        padding : 0px 10px 0px 10px;
+        margin:0px;
+    
+     }
+    /*-------------------Feature-----------------------*/
+    .ben{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+.features-heading-small{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.feature-box{
+   display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+.feature-card{
+    width:350px;    
+    padding:30px;
+
+}
+.feature-image{
+height:120px;
+width:350px;
+
+}
+/*-------------------Benites---------------------*/
+
+.benifits-section{
+	margin-top: 100px;
+}
+.benifit-items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.benefits-text-box{
+	width: 600px;
+}
+.benifit-items img{
+	margin: 20px;
+}
+.benifit-items{
+	font-size: 1.2rem;
+	
+}
+
+
+
+
+
+
+
+
+
+.collection{
+	padding-top:0px;
+	padding-bottom: 0px;
+	text-align:center;
+
+
+}
+
+
+.collection-container{
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row ;
+	justify-content:space-around;
+
+
+	}
+
+.collection-image{
+	height: 150px;
+	width: 335px;
+	position: relative;
+	
+	z-index: -1;
+}
+.collection-card{
+	margin-top: 140px;
+}
+
+.collection-card span{
+display: flex;
+justify-content: center;
+align-items: center;
+color:#fff;
+margin-top: -90px;
+font-weight: bolder;
+text-transform: uppercase;
+
+}
+
+
+
+
+.Clip{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+
+}
+.Clipmine{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+background: rgb(240 240 240);	
+
+}
+
+.Clipmine-Card{
+display: flex;
+margin: 40px;
+
+}
+
+.Clipmine-Card-img{
+height: 180px;
+width: 320px;
+justify-content: space-between;
+}
+
+
+
+/*----------------------------input---------------------*/
+.Input-text{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
+.Input-Card {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.Input-button{
+    padding:10px 20px;
+    width: 30%;
+    
+}
+.but{
+    background:darkorchid;
+}
+
+
+/*----------------5Pic-----------------*/
+.platforms{
+	text-align: center;
+}
+
+
+
+.platforms-container{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
+
+/*---------------------footer-------------------*/
+footer{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+list-style-type: none;
+
+align-items: center;
+background: black;
+color:white;
+
+}
+
+footer ul{
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+		display: block;
+margin: 5px;
+
+
+
+}
+
+
+
+footer li{
+	display: inline;
+
+}
+
+
+
